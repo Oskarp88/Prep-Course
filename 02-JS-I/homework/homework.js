@@ -252,12 +252,13 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra == "a" || "e" || "i" || "o" || "u"){
     return "Es vocal";
-  } else if(letra.length != 1){
-    return "Dato incorrecto";
-  }else {
-    return "dato incorrecto"
+  } 
+  if(letra.length >1){
+    "dato incorrecto";
   }
-  
+  if(letra != "a" || "e" || "i" || "o" || "u" ){
+    "dato incorrecto";
+  }
   
 }
 
